@@ -12,10 +12,15 @@
   [class^="col-"] {
     background-color: orangered;
     float: left;
+    text-align: center;
 
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
     }
+  }
+
+  .col-1-of-1 {
+    width: 100%;
   }
 
   .col-1-of-2 {
