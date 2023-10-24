@@ -98,6 +98,9 @@ body {
 .u-margin-bottom-small {
   margin-bottom: 1rem; }
 
+.u-margin-top-huge {
+  margin-top: 16rem; }
+
 .btn:link, .btn.visited {
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -141,6 +144,12 @@ body {
   color: #777; }
   .btn-white::after {
     background-color: #fff; }
+
+.btn-green {
+  background-color: #55c57a;
+  color: #fff; }
+  .btn-green::after {
+    background-color: #55c57a; }
 
 .btn-text:link, .btn-text:visited {
   font-size: 1.6rem;
