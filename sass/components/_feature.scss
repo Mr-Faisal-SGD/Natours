@@ -17,13 +17,11 @@
       $color-primary-dark
     );
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
   }
 
   &:hover {
     transform: translateY(-1rem) scale(1.03);
-  }
-
-  &-text {
   }
 }
