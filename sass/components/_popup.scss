@@ -9,7 +9,6 @@
 
   &-content {
     width: 75%;
-    height: 50rem;
     background-color: $color-white;
     box-shadow: 0 2rem 4rem rgba($color-black, 0.8);
     position: absolute;
@@ -19,5 +18,33 @@
     border-radius: 3px;
     display: table;
     overflow: hidden;
+  }
+
+  &-left {
+    width: 33.333333%;
+    display: table-cell;
+  }
+
+  &-right {
+    width: 66.666667%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3rem 5rem;
+  }
+
+  &-img {
+    display: block;
+    width: 100%;
+  }
+
+  &-text {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+
+    column-count: 2;
+    column-gap: 4rem;
+    column-rule: 1px solid $color-grey-light-2;
+
+    hyphens: auto;
   }
 }
