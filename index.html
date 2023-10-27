@@ -18,13 +18,11 @@
   </head>
   <body>
     <div class="navigation">
-      <input
-        type="checkbox"
-        class="navigation-checkbox"
-        id="navi-toggle"
-      />
-      <label for="navi-toggle" class="navigation-button">MENU</label>
-      <div class="navigation-background">&nbsp;</div>
+      <input type="checkbox" class="navigation-checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation-button">
+        <span class="navigation-icon"></span>
+      </label>
+      <div class="navigation-background"></div>
       <nav class="navigation-nav">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -54,7 +52,9 @@
       <div class="text-box">
         <h1 class="heading-primary">
           <span class="heading-primary-main">Outdoors</span>
-          <span class="heading-primary-sub">is where life happens</span>
+          <span class="heading-primary-sub u-text-align-left"
+            >is where life happens</span
+          >
         </h1>
         <a href="#" class="btn btn-white btn-animated">Discover our tours</a>
       </div>
@@ -451,8 +451,22 @@
       </div>
     </footer>
 
-    <!--
-      <section class="grid-test">
+    <div class="popup">
+      <div class="popup-content">
+        <div class="popup-left">
+          <img class="popup-img" src="img/nat-8.jpg" alt="Tour Photo" />
+          <img class="popup-img" src="img/nat-9.jpg" alt="Tour Photo" />
+        </div>
+        <div class="popup-right">
+          <h2 class="heading-secondary">Start Booking now</h2>
+          <h3 class="heading-tertiary">
+            important &ndash; Please read these terms before booking
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- <section class="grid-test">
         <div class="row">
           <div class="col-1-of-2">Col 1 of 2</div>
           <div class="col-1-of-2">Col 1 of 2</div>
@@ -481,7 +495,6 @@
           <div class="col-1-of-4">Col 1 of 4</div>
           <div class="col-3-of-4">Col 3 of 4</div>
         </div>
-      </section>
-    -->
+      </section> -->
   </body>
 </html>
