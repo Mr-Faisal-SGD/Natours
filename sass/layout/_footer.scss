@@ -4,9 +4,21 @@
   font-size: 1.4rem;
   color: $color-grey-light-1;
 
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
+
   &-logo-box {
     text-align: center;
     margin-bottom: 8rem;
+
+    @include respond(tab-port) {
+      margin-bottom: 6rem;
+    }
+
+    @include respond(phone) {
+      margin-bottom: 4rem;
+    }
   }
 
   &-logo {
@@ -17,6 +29,17 @@
     border-top: 1px solid $color-grey-dark;
     padding-top: 2rem;
     display: inline-block;
+
+    @include respond(tab-port) {
+      text-align: center;
+      width: 150%;
+      transform: translateX(-16.6666666%);
+    }
+
+    @include respond(phone) {
+      width: 100%;
+      transform: translateX(0);
+    }
   }
 
   &-item {
@@ -55,5 +78,16 @@
     padding-top: 2rem;
     width: 80%;
     float: right;
+
+    @include respond(tab-port) {
+      width: 150%;
+      transform: translateX(-16.6666666%);
+      float: none;
+    }
+
+    @include respond(phone) {
+      width: 100%;
+      transform: translateX(0);
+    }
   }
 }
